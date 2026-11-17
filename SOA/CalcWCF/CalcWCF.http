@@ -1,0 +1,6 @@
+@CalcWCF_HostAddress = http://localhost:5066
+
+GET {{CalcWCF_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
