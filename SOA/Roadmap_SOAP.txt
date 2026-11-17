@@ -1,0 +1,27 @@
+
+
+Essencial sobre Serviços (SOAP/REST)
+------------------------------------
+SOAP
+------------------------------------
+
+1- Criar Serviço CalWs
+	Soma
+	Subtracao
+	
+2 - Criar Serviço CalcWSPlus - Composto
+	Multiplicacao
+	Soma (a partir de CalcWs)
+
+3 - Criar clientes
+
+	- Consola C#
+	- Windows C#
+	- Python
+
+4 - Uso Assincrono de serviços
+
+5 - Acesso a BD com serviços
+	
+	
+	      
