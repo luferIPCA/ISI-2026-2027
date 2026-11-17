@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcCoreWCF", "CalcCoreWCF\CalcCoreWCF.csproj", "{18759243-078D-4CAC-A52B-F9A3043E267D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcConsoleWCF", "CalcConsoleWCF\CalcConsoleWCF.csproj", "{7211E7EE-92A4-4DD8-B5C9-3F693DDCC725}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18759243-078D-4CAC-A52B-F9A3043E267D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18759243-078D-4CAC-A52B-F9A3043E267D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18759243-078D-4CAC-A52B-F9A3043E267D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18759243-078D-4CAC-A52B-F9A3043E267D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7211E7EE-92A4-4DD8-B5C9-3F693DDCC725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7211E7EE-92A4-4DD8-B5C9-3F693DDCC725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7211E7EE-92A4-4DD8-B5C9-3F693DDCC725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7211E7EE-92A4-4DD8-B5C9-3F693DDCC725}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54520581-130C-4849-90A9-4629701FFA04}
+	EndGlobalSection
+EndGlobal
