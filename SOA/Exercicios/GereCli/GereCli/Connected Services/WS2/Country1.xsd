@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://www.ipca.pt/isi" elementFormDefault="qualified" targetNamespace="http://www.ipca.pt/isi" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="GetCountryFlag">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="c" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCountryFlagResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetCountryFlagResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

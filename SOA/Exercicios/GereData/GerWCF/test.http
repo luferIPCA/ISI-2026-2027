@@ -1,0 +1,14 @@
+﻿POST https://localhost:7095/GereData.svc
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "https://www.ipca.pt/isi/IData/ValidDate"
+
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:isi="https://www.ipca.pt/isi">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <isi:ValidDate>
+      <isi:s>32/11/2026</isi:s>
+    </isi:ValidDate>
+  </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,18 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "messageContract": true,
+    "namespaceMappings": [
+      "*, WS2"
+    ],
+    "sync": true,
+    "targetFramework": "net8.0",
+    "typeReuseMode": "All"
+  }
+}

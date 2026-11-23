@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcWCF", "CalcWCF.csproj", "{EB99DF31-7415-4830-B10A-B0826D3ED9D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sdsdsasd", "..\sdsdsasd\sdsdsasd.csproj", "{C5D9A179-D9AE-4EDF-BDEE-F8F7E882FB6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EB99DF31-7415-4830-B10A-B0826D3ED9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB99DF31-7415-4830-B10A-B0826D3ED9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB99DF31-7415-4830-B10A-B0826D3ED9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D9A179-D9AE-4EDF-BDEE-F8F7E882FB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D9A179-D9AE-4EDF-BDEE-F8F7E882FB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D9A179-D9AE-4EDF-BDEE-F8F7E882FB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D9A179-D9AE-4EDF-BDEE-F8F7E882FB6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

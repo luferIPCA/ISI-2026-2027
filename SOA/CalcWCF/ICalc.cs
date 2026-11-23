@@ -17,5 +17,8 @@ namespace CalcWCF
     {
         [OperationContract]
         int Soma(int x, int y);
+
+        [OperationContract]
+        string GetCountryFlag(string pais);
     }
 }

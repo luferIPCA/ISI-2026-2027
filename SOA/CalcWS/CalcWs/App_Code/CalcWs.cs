@@ -2,6 +2,8 @@
  * lufer
  * ISI 2026
  * */
+using System;
+using System.Security.Cryptography;
 using System.Web.Services;
 
 /// <summary>
@@ -18,7 +20,7 @@ public class CalcWs : System.Web.Services.WebService
         //InitializeComponent(); 
     }
 
-    [WebMethod(Description ="Calcula a Soma")]
+    [WebMethod(Description = "Calcula a Soma")]
     public int Soma(int x, int y)
     {
         return x + y;
@@ -28,6 +30,14 @@ public class CalcWs : System.Web.Services.WebService
     public int Sub(int x, int y)
     {
         return x - y;
+    }
+
+    [WebMethod()]
+    public bool ValidaData(string s)
+    {
+        DateTime d;
+        bool aux = DateTime.TryParse(s, out d);
+        return aux;
     }
 
 }
